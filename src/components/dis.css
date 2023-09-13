@@ -1,0 +1,56 @@
+/* Distributor Card Styles */
+.distributor-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    width: calc(33.33% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .distributor-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styles for specific distributor cards */
+  .distributor-card.blue {
+    background-color: #3498db;
+    color: white;
+    border: 1px solid #2980b9;
+  }
+  
+  .distributor-card.green {
+    background-color: #27ae60;
+    color: white;
+    border: 1px solid #219142;
+  }
+  
+  .distributor-card.orange {
+    background-color: #e67e22;
+    color: white;
+    border: 1px solid #d35400;
+  }
+  
+  .distributor-card.purple {
+    background-color: #8e44ad;
+    color: white;
+    border: 1px solid #6c3483;
+  }
+  
+  .distributor-card.teal {
+    background-color: #1abc9c;
+    color: white;
+    border: 1px solid #16a085;
+  }
+  
+  .distributor-card.pink {
+    background-color: #e84393;
+    color: white;
+    border: 1px solid #d3386a;
+  }
+  
+  /* ... (other styles) */
+  
