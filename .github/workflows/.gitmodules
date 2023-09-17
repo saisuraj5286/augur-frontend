@@ -1,0 +1,4 @@
+[submodule "augur-frontend"]
+    path = augur-frontend
+    url = https://github.com/saisuraj5286/augur-frontend.git
+
